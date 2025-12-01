@@ -1,34 +1,34 @@
-Project Overview
+Project Overview  
 
-This project implements and compares several machine learning and deep learning algorithms to classify MRI scans into four stages of Alzheimer’s disease:
+This project implements and compares several machine learning and deep learning algorithms to classify MRI scans into four stages of Alzheimer’s disease:  
 
-Non-Demented
+1. Non-Demented 
+2. Mild Demented 
+3. Moderate Demented 
+4. Very Mild Demented 
 
-Mild Demented
+The goal is to build an accurate, reproducible pipeline for early detection of Alzheimer’s disease from MRI images. 
 
-Moderate Demented
+Features & Highlights -
 
-Very Mild Demented
+CNN (Convolutional Neural Network) for high-accuracy image classification (~91% test accuracy).  
+Class balancing and data augmentation to handle imbalanced datasets and improve model robustness. 
+Traditional ML models: SVM, KNN, and ensemble learning for comparative performance analysis. 
+End-to-end ML workflow: data preprocessing, training, evaluation, and visualization. 
+  
 
-The goal is to build an accurate, reproducible pipeline for early detection of Alzheimer’s disease from MRI images.
+Tools & Libraries: Python, TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn. 
 
-Features & Highlights
+Project Structure-
 
-CNN (Convolutional Neural Network) for high-accuracy image classification (~91% test accuracy).
+CNN.ipynb - Implementation and training of the CNN model for MRI classification. 
 
-Class balancing and data augmentation to handle imbalanced datasets and improve model robustness.
+SVM.ipynb - Support Vector Machine model implementation and evaluation. 
 
-Traditional ML models: SVM, KNN, and ensemble learning for comparative performance analysis.
+KNN-Classifier.ipynb	- K-Nearest Neighbors classifier implementation. 
 
-End-to-end ML workflow: data preprocessing, training, evaluation, and visualization.
+Ensemble-based learning.ipynb - Ensemble learning techniques applied for performance improvement. 
 
-Tools & Libraries: Python, TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn.
+Data augmentation.ipynb - Techniques for data augmentation and class balancing. 
 
-
-Project Structure
-File/Notebook	Description
-CNN.ipynb	Implementation and training of the CNN model for MRI classification.
-SVM.ipynb	Support Vector Machine model implementation and evaluation.
-KNN-Classifier.ipynb	K-Nearest Neighbors classifier implementation.
-Ensemble-based learning.ipynb	Ensemble learning techniques applied for performance improvement.
-Data augmentation.ipynb	Techniques for data augmentation and class balancing.
+ 
